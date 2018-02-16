@@ -1,9 +1,9 @@
 .thumbnail:hover .back {
-	transform: rotateY(0deg);
+	display: block;
 }
 
 .thumbnail:hover .front {
-	transform: rotateY(-180deg);
+	display: none;
 }
 
 .card {
@@ -27,9 +27,10 @@
 }
 
 .back {
-	transform: rotateY(180deg);
+	display: none;
 }
 
 .front {
 	background: url('cardback.jpg');
+	display: block;
 }
